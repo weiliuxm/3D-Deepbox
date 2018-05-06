@@ -1,1 +1,1 @@
-python main.py --mode test --gpu [gpu_id] --image [test_image_path] --box2d [test_2d_boxes_path] --model [model_path] --output [output_file_path]
+python main.py --mode train  --image /media/weiliu/data/datasets/kitti/data_object_image_2/training/image_2/  --label /media/weiliu/data/datasets/kitti/training/label_2/  --box2d /media/weiliu/data/datasets/kitti/training/
