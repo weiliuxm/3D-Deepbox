@@ -1,0 +1,1 @@
+python main.py --mode test --gpu 0   --image  /media/weiliu/data/datasets/kitti/data_object_image_2/testing/image_2/  --box2d /media/weiliu/data/datasets/kitti/training/label_2/ --model ./model/model-50
