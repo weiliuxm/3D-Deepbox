@@ -180,6 +180,9 @@ def train(image_dir, box2d_loc, label_dir):
         print "Epoch Time Cost:", round(tStop_epoch - tStart_epoch,2), "s"
         sys.stdout.flush()
 
+#3D bounding box是需要计算的信息
+#需要标记信息里的2d bouding box 信息计算yaw。利用yaw和标记的location计算rotation_y。
+#
 def test(model, image_dir, box2d_loc, box3d_loc):
 
     ### buile graph
