@@ -10,7 +10,7 @@ BIN, OVERLAP = 2, 0.1
 NORM_H, NORM_W = 224, 224
 VEHICLES = ['Car', 'Truck', 'Van', 'Tram','Pedestrian','Cyclist']
 
-
+#返回的anchor有两个元素，第一个所在bin的编号，第二个是与上述bin的残差值。
 def compute_anchors(angle):
     anchors = []
     
